@@ -32,7 +32,7 @@ object WeatherRepository {
 
         // 1. Retrofit을 통해 날씨 데이터 요청
         service.getVillageForecast(
-            serviceKey = "Z4MnUxtn6kYqmglP/ceIZHErAKP8u+ZpCnwkDE5jnJcKPJYnYKbreKGC9s7ntAQparMCWJo9Vmqny+qhMWxFMg==",
+            serviceKey = "",
             baseDate = baseDateTime.baseDate,
             baseTime = baseDateTime.baseTime,
             nx = point.nx,
